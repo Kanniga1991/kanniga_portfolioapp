@@ -1,0 +1,28 @@
+.projectlist > img{
+    width: 350px;
+    height: 180px;
+}
+.projectlist{
+ margin: 15px;
+ width: 250px;
+ height: 180px;  
+ transition: transform 100ms ease-in; 
+}
+.projectlist:hover{
+    color: black;
+    background-color: yellow;
+    transform: scale(1.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.projectlist_show{
+    padding: 10px;
+}
+.projectlist_show > h4 {
+    padding-bottom: 5px;
+}
+.projectlist_show > p{
+    font-size: 15px;
+}
