@@ -1,8 +1,8 @@
 import React , {useState} from 'react';
-import "./Project_List.css";
+import "./ProjectList.css";
 
 
-export default function Project_List( {img, title,  description, link} ) {
+export default function ProjectList( {img, title,  description, link} ) {
     const [show , setshow] = useState(false);
 
     return (
