@@ -14,7 +14,8 @@
 }
 .projects_images{
     display: flex;
-    width: 60vw;
-    margin :1rem;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
 }

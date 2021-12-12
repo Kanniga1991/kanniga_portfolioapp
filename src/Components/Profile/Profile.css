@@ -3,10 +3,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 10%;
     min-height: fit-content;
-    background-color:black;
-    
+    background-color:hsl(200, 20%, 20%);
   }
   .profile-parent {
     display: flex;
@@ -15,7 +13,6 @@
   }
   .profile-details-name {
     font-size: 24px;
-    font-family: 'PT Sans Narrow', sans-serif;
   }
   .profile-details-role {
     display: flex;
@@ -24,7 +21,6 @@
   }
   .profile-details-role h1 {
     font-size: 40px;
-    font-family: 'PT Sans Narrow', sans-serif;
   }
   .primary-text {
     color: (--white);
@@ -42,7 +38,6 @@
     color: black;
     font-size: 1rem;
     border-radius: 12px;
-    font-family: 'Crimson Pro', serif;
     cursor : pointer;  
   }
   .profile-options .highlighted-btn:hover {
@@ -51,7 +46,6 @@
     color: white;
     font-size: 1rem;
     border-radius: 12px;
-    font-family: 'Crimson Pro', serif;
     transform: scale(1.1);
     }
   
@@ -59,24 +53,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 1px 0px 0px var(--white);
     border-radius: 50%;
     height: 380px;
     width: 380px;
     margin: 0 0px 0 100px;
   }
   .profile-picture-background {
-    height: 92%;
-    width: 92%;
-    background-image: url("../../assests/propic.jpg");
-    background-size: cover;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+    transform: scale(1);
+    transition: all 1s ease-out;
   }
   .profile-picture-background:hover {
-    transform: scale(1.07);
-    transition: 1s ease-out;
+    transform: scale(1.1);
+    transition: all 1s ease-out;
   }
   
   @media screen and (max-width: 1110px) {
@@ -112,7 +103,7 @@
     }
     .profile-options {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
     }
     .profile-details {
       margin: 25px 0 0;

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Element} from "react-scroll";
-import dev from "../../assests/dev.jpeg";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import "./Skillset.css";
 
@@ -8,7 +7,7 @@ export default function Skillset() {
     return (
         <Element className = "skillcontainer" id = "skills">
             <div className = "skillcontainer_image">
-                <img src = {dev} alt = ""/>
+                <img src = "./assests/dev.jpeg" alt = "dev"/>
             </div>
             <div className = "skillcontainer_text">
                 <h2>TECHNICAL SKILLS</h2>

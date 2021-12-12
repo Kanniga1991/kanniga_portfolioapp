@@ -37,7 +37,6 @@ export default function Header() {
                   Contact
               </h4>
           </Link>
-          <h4 className = "header_rightcorner">Join with Me</h4>
       </div>
     </div>
   );

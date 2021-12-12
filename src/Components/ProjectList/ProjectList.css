@@ -1,28 +1,41 @@
-.projectlist > img{
-    width: 350px;
+.projectlist_img{
+    width: 240px;
     height: 180px;
+    border-radius: 10px;
 }
 .projectlist{
- margin: 15px;
- width: 250px;
- height: 180px;  
- transition: transform 100ms ease-in; 
+    margin: 15px;
+    width: 240px;
+    height: 180px;
+    transition: all 0.2s ease-in-out;
 }
-.projectlist:hover{
-    color: black;
-    background-color: yellow;
-    transform: scale(1.0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.atag, .atag:hover {
+  text-decoration: none;
+}
+.projectlist:hover .projectlist_show{
+    display: block;
+    color: white;
+    background-color: rgb(131, 36, 209);
     cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.projectlist:hover .projectlist_img {
+    display: none;
+    transition: all 0.2s ease-in-out;
 }
 .projectlist_show{
     padding: 10px;
+    display: none;
+    width: 240px;
+    height: 180px;
+    transition: all 0.2s ease-in-out;
 }
 .projectlist_show > h4 {
     padding-bottom: 5px;
+    font-size: 18px;
+    text-decoration: underline;
 }
-.projectlist_show > p{
+.projectlist_show > p {
     font-size: 15px;
 }

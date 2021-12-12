@@ -9,12 +9,9 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          
-
           <div className="profile-details-name">
             <span className="primary-text">
-              {" "}
-              Hello , Iam{" "}
+              Hello, I'm
               <span className="highlighted-text"> Kanniga Manivannan </span>
             </span>
           </div>
@@ -50,7 +47,7 @@ export default function Profile() {
           </div>
         </div>
         <div className="profile-picture">
-          <div className="profile-picture-background"></div>
+          <img src="./assests/propic.png" alt="propic" className="profile-picture-background" />
         </div>
       </div>
     </div>
